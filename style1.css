@@ -1,0 +1,142 @@
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the form */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    max-width: 400px;
+    margin: 0 20px;
+    height:80%;
+}
+
+/* Heading */
+h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Form groups */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Inputs and Textarea */
+input, textarea, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Make sure the button is styled distinctly */
+button {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    input, textarea, button {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+.icons{
+    text-align: right;
+}
+.time{
+    margin-top:-22px;
+    font-size: 12px;
+}
+.bx-lock-alt{
+    position: relative;
+    top:83px;
+    left:4px;
+}
+p{
+    font-size:9px;
+    color:gray; 
+}
+.p11{
+    text-align:right;
+}
+.bx-envelope{
+    position: relative;
+    top:43px;
+    left:2px;
+}
+.child{
+    height:28px;
+    border:1px solid black;
+}
+.gole{
+   position: relative;
+    width:20px;
+    top:-16px;
+}
+
+.a12{
+    text-align: center;
+    color:black;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.bottom2{
+    text-align: center;
+    margin-top: 90px;
+}
+.bottom-line{
+    width:90px;
+    height:5px;
+    margin-left:70px;
+    margin-top:3px;
+}
+.bx-show{
+    position: relative;
+    top:-30px;
+    left:90%;
+}
+span{
+    color:black;
+}
