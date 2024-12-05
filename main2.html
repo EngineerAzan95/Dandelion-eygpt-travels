@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first{
+            position: relative;
+            top:5px;
+        }
+        .container{
+            border: 2px solid black;
+            width:21%;
+            height: 600px;
+            background-color:rgba(236, 234, 234, 0.986);
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            width:100%;
+        }
+        .child{
+            border: none;
+            margin-top:40px;
+            width:270px;
+            border-radius:10px;
+            height:200px;
+            position: relative;
+            left:5px;
+            background: white;
+        }
+        p{
+            font-size: 12px;
+            color:gray;
+            position: relative;
+            left:30px;
+            
+        }
+        .in1{
+            background:rgb(240, 238, 238);
+            position: relative;
+            left:30px;
+            border-radius: 5px;
+            border:2px solid lightgray;
+            width:180px;
+        }
+        .in2{
+            position: relative;
+            top:-10px;
+            left: 28px;
+            width:80px;
+            border-radius: 5px;
+            border:1px solid lightgray;
+            background:rgb(240, 238, 238);
+        }
+        .in3{
+            position: relative;
+            top:-68px;
+            left: 130px;
+            width:80px;
+            border-radius: 5px;
+            border:1px solid lightgray;
+            background:rgb(240, 238, 238);
+        }
+        .in4{
+            background:rgb(240, 238, 238);
+            position: relative;
+            top:-90px;
+            left:30px;
+            border-radius: 5px;
+            border:2px solid lightgray;
+            width:180px;
+        }
+
+        .last{
+            position: relative;
+            top:-57px;
+            left:132px;
+            
+        }
+        .last2{
+            position: relative;
+            top:-80px;
+        }
+        .btn{
+            position: relative;
+            top:100px;
+            left:10px;
+            border-radius: 10px;
+            width:90%;
+        }
+        a{
+            position: relative;
+            top:70px;
+            left:84px;
+            text-decoration: none;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="abc.png" alt="main">
+        <div class="child">
+            <p class="first">Card Number</p>
+            <input type="text" class="in1">
+            <p>Expire date</p>
+            <input type="text" class="in2">
+            <p class="last">CVC/CVV</p>
+            <input type="password" class="in3">
+            <br>
+            <br>
+            <p class="last2">Card holder name</p>
+            <input type="text" class="in4">
+
+       </div>
+       <img src="btn.png" alt="button"class="btn">
+       <a href="http://127.0.0.1:5500/abcde.html">Add new card</a>
+    </div>
+</body>
+</html>
